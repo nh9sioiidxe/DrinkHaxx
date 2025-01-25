@@ -10,15 +10,15 @@ while wait () do
 local Remote = game.ReplicatedStorage.RemoteEvents['DrinkEvent']
 
 local Arguments = {
-        [1] = "Ninth Drink"
+        [90] = "seventh drink"
 }
 
 Remote:FireServer(unpack(Arguments))
 end	
 end)
 
-local b = w:Button("Burp Spam", function()
-	while wait () do
+local b = w:Button("Burp Spam", function(90)
+	while wait (123) do
 local Remote = game.ReplicatedStorage.RemoteEvents['BurpEvent']
 
 local Arguments = {
